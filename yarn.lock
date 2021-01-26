@@ -163,7 +163,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.12.5":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.5":
   version "7.12.5"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   integrity sha1-QQ5+SHRB4bNgwpvnFdhw2bmFiC4=
@@ -734,6 +734,11 @@ array-union@^2.1.0:
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/array-union/-/array-union-2.1.0.tgz#b798420adbeb1de828d84acd8a2e23d3efe85e8d"
   integrity sha1-t5hCCtvrHego2ErNii4j0+/oXo0=
 
+asap@~2.0.3:
+  version "2.0.6"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
+  integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
+
 assertion-error@^1.1.0:
   version "1.1.0"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/assertion-error/-/assertion-error-1.1.0.tgz#e60b6b0e8f301bd97e5375215bda406c85118c0b"
@@ -751,12 +756,57 @@ async@^2.6.2:
   dependencies:
     lodash "^4.17.14"
 
+asynckit@^0.4.0:
+  version "0.4.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
+  integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
+
+auth0-js@^9.13.3:
+  version "9.14.3"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/auth0-js/-/auth0-js-9.14.3.tgz#1b6feee3c8a131906694713c82c68f46eabc953c"
+  integrity sha1-G2/u48ihMZBmlHE8gsaPRuq8lTw=
+  dependencies:
+    base64-js "^1.3.0"
+    idtoken-verifier "^2.0.3"
+    js-cookie "^2.2.0"
+    qs "^6.7.0"
+    superagent "^5.3.1"
+    url-join "^4.0.1"
+    winchan "^0.2.2"
+
+auth0-lock@^11.28.0:
+  version "11.28.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/auth0-lock/-/auth0-lock-11.28.0.tgz#88391b3d39b1e188c390aee300adb1c624806554"
+  integrity sha1-iDkbPTmx4YjDkK7jAK2xxiSAZVQ=
+  dependencies:
+    auth0-js "^9.13.3"
+    auth0-password-policies "^1.0.2"
+    blueimp-md5 "2.3.1"
+    immutable "^3.7.3"
+    jsonp "^0.2.1"
+    password-sheriff "^1.1.0"
+    prop-types "^15.6.0"
+    qs "^6.7.0"
+    react "^15.6.2"
+    react-dom "^15.6.2"
+    react-transition-group "^2.2.1"
+    trim "0.0.1"
+    url-join "^1.1.0"
+    validator "^13.1.1"
+
+auth0-password-policies@^1.0.2:
+  version "1.0.2"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/auth0-password-policies/-/auth0-password-policies-1.0.2.tgz#b5ba7454254f0dc51067b37c674bc09b0f96ba30"
+  integrity sha1-tbp0VCVPDcUQZ7N8Z0vAmw+WujA=
+  dependencies:
+    password-sheriff "^1.1.0"
+
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
 
-base64-js@^1.3.1:
+base64-js@^1.3.0, base64-js@^1.3.1:
   version "1.5.1"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
   integrity sha1-GxtEAWClv3rUC2UPCVljSBkDkwo=
@@ -774,6 +824,11 @@ bl@^4.0.3:
     buffer "^5.5.0"
     inherits "^2.0.4"
     readable-stream "^3.4.0"
+
+blueimp-md5@2.3.1:
+  version "2.3.1"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/blueimp-md5/-/blueimp-md5-2.3.1.tgz#992a6737733b9da1edd641550dc3acab2e9cfc5a"
+  integrity sha1-mSpnN3M7naHt1kFVDcOsqy6c/Fo=
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -943,6 +998,13 @@ color-name@~1.1.4:
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
 
+combined-stream@^1.0.8:
+  version "1.0.8"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
+  integrity sha1-w9RaizT9cwYxoRCoolIGgrMdWn8=
+  dependencies:
+    delayed-stream "~1.0.0"
+
 command-line-args@^5.1.1:
   version "5.1.1"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/command-line-args/-/command-line-args-5.1.1.tgz#88e793e5bb3ceb30754a86863f0401ac92fd369a"
@@ -962,6 +1024,11 @@ command-line-usage@^6.1.1:
     chalk "^2.4.2"
     table-layout "^1.0.1"
     typical "^5.2.0"
+
+component-emitter@^1.3.0:
+  version "1.3.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/component-emitter/-/component-emitter-1.3.0.tgz#16e4070fba8ae29b679f2215853ee181ab2eabc0"
+  integrity sha1-FuQHD7qK4ptnnyIVhT7hgasuq8A=
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -987,6 +1054,11 @@ convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   dependencies:
     safe-buffer "~5.1.1"
 
+cookiejar@^2.1.2:
+  version "2.1.2"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/cookiejar/-/cookiejar-2.1.2.tgz#dd8a235530752f988f9a0844f3fc589e3111125c"
+  integrity sha1-3YojVTB1L5iPmghE8/xYnjERElw=
+
 cookies@~0.8.0:
   version "0.8.0"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/cookies/-/cookies-0.8.0.tgz#1293ce4b391740a8406e3c9870e828c4b54f3f90"
@@ -1000,6 +1072,24 @@ core-js-pure@^3.0.0:
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/core-js-pure/-/core-js-pure-3.8.3.tgz#10e9e3b2592ecaede4283e8f3ad7020811587c02"
   integrity sha1-EOnjslkuyu3kKD6POtcCCBFYfAI=
 
+core-js@^1.0.0:
+  version "1.2.7"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
+  integrity sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
+
+create-react-class@^15.6.0:
+  version "15.7.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/create-react-class/-/create-react-class-15.7.0.tgz#7499d7ca2e69bb51d13faf59bd04f0c65a1d6c1e"
+  integrity sha1-dJnXyi5pu1HRP69ZvQTwxlodbB4=
+  dependencies:
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
+
+crypto-js@^3.2.1:
+  version "3.3.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/crypto-js/-/crypto-js-3.3.0.tgz#846dd1cce2f68aacfa156c8578f926a609b7976b"
+  integrity sha1-hG3RzOL2iqz6FWyFePkmpgm3l2s=
+
 debounce@^1.2.0:
   version "1.2.0"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/debounce/-/debounce-1.2.0.tgz#44a540abc0ea9943018dc0eaa95cce87f65cd131"
@@ -1012,7 +1102,7 @@ debug@4, debug@^4.1.0, debug@^4.1.1:
   dependencies:
     ms "2.1.2"
 
-debug@^2.6.8:
+debug@^2.1.3, debug@^2.6.8:
   version "2.6.9"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   integrity sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8=
@@ -1054,6 +1144,11 @@ deepmerge@^4.2.2:
   version "4.2.2"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
   integrity sha1-RNLqNnm49NT/ujPwPYZfwee/SVU=
+
+delayed-stream@~1.0.0:
+  version "1.0.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
+  integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 
 delegates@^1.0.0:
   version "1.0.0"
@@ -1102,6 +1197,13 @@ dom-accessibility-api@^0.5.4:
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/dom-accessibility-api/-/dom-accessibility-api-0.5.4.tgz#b06d059cdd4a4ad9a79275f9d414a5c126241166"
   integrity sha1-sG0FnN1KStmnknX51BSlwSYkEWY=
 
+dom-helpers@^3.4.0:
+  version "3.4.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/dom-helpers/-/dom-helpers-3.4.0.tgz#e9b369700f959f62ecde5a6babde4bccd9169af8"
+  integrity sha1-6bNpcA+Vn2Ls3lprq95LzNkWmvg=
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+
 dotenv-expand@^5.1.0:
   version "5.1.0"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/dotenv-expand/-/dotenv-expand-5.1.0.tgz#3fbaf020bfd794884072ea26b1e9791d45a629f0"
@@ -1127,6 +1229,13 @@ encodeurl@^1.0.2:
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
 
+encoding@^0.1.11:
+  version "0.1.13"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/encoding/-/encoding-0.1.13.tgz#56574afdd791f54a8e9b2785c0582a2d26210fa9"
+  integrity sha1-VldK/deR9UqOmyeFwFgqLSYhD6k=
+  dependencies:
+    iconv-lite "^0.6.2"
+
 end-of-stream@^1.1.0, end-of-stream@^1.4.1:
   version "1.4.4"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/end-of-stream/-/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
@@ -1143,6 +1252,11 @@ es-module-lexer@^0.3.26:
   version "0.3.26"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/es-module-lexer/-/es-module-lexer-0.3.26.tgz#7b507044e97d5b03b01d4392c74ffeb9c177a83b"
   integrity sha1-e1BwROl9WwOwHUOSx0/+ucF3qDs=
+
+es6-promise@^4.2.8:
+  version "4.2.8"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/es6-promise/-/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
+  integrity sha1-TrIVlMlyvEBVPSduUQU5FD21Pgo=
 
 esbuild@^0.8.7:
   version "0.8.36"
@@ -1192,12 +1306,30 @@ fast-glob@^3.1.1:
     micromatch "^4.0.2"
     picomatch "^2.2.1"
 
+fast-safe-stringify@^2.0.7:
+  version "2.0.7"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/fast-safe-stringify/-/fast-safe-stringify-2.0.7.tgz#124aa885899261f68aedb42a7c080de9da608743"
+  integrity sha1-EkqohYmSYfaK7bQqfAgN6dpgh0M=
+
 fastq@^1.6.0:
   version "1.10.0"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/fastq/-/fastq-1.10.0.tgz#74dbefccade964932cdf500473ef302719c652bb"
   integrity sha1-dNvvzK3pZJMs31AEc+8wJxnGUrs=
   dependencies:
     reusify "^1.0.4"
+
+fbjs@^0.8.9:
+  version "0.8.17"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/fbjs/-/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
+  integrity sha1-xNWY6taUkRJlPWWIsBpc3Nn5D90=
+  dependencies:
+    core-js "^1.0.0"
+    isomorphic-fetch "^2.1.1"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^0.7.18"
 
 fd-slicer@~1.1.0:
   version "1.1.0"
@@ -1227,6 +1359,20 @@ find-up@^4.0.0:
   dependencies:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
+
+form-data@^3.0.0:
+  version "3.0.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/form-data/-/form-data-3.0.0.tgz#31b7e39c85f1355b7139ee0c647cf0de7f83c682"
+  integrity sha1-MbfjnIXxNVtxOe4MZHzw3n+DxoI=
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.8"
+    mime-types "^2.1.12"
+
+formidable@^1.2.2:
+  version "1.2.2"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/formidable/-/formidable-1.2.2.tgz#bf69aea2972982675f00865342b982986f6b8dd9"
+  integrity sha1-v2muopcpgmdfAIZTQrmCmG9rjdk=
 
 fresh@~0.5.2:
   version "0.5.2"
@@ -1393,6 +1539,25 @@ iconv-lite@0.4.24:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
+iconv-lite@^0.6.2:
+  version "0.6.2"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/iconv-lite/-/iconv-lite-0.6.2.tgz#ce13d1875b0c3a674bd6a04b7f76b01b1b6ded01"
+  integrity sha1-zhPRh1sMOmdL1qBLf3awGxtt7QE=
+  dependencies:
+    safer-buffer ">= 2.1.2 < 3.0.0"
+
+idtoken-verifier@^2.0.3:
+  version "2.1.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/idtoken-verifier/-/idtoken-verifier-2.1.0.tgz#e61ea083be596390012aff6d9f12c2599af4847b"
+  integrity sha1-5h6gg75ZY5ABKv9tnxLCWZr0hHs=
+  dependencies:
+    base64-js "^1.3.0"
+    crypto-js "^3.2.1"
+    es6-promise "^4.2.8"
+    jsbn "^1.1.0"
+    unfetch "^4.1.0"
+    url-join "^4.0.1"
+
 ieee754@^1.1.13:
   version "1.2.1"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
@@ -1402,6 +1567,11 @@ ignore@^5.1.4:
   version "5.1.8"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/ignore/-/ignore-5.1.8.tgz#f150a8b50a34289b33e22f5889abd4d8016f0e57"
   integrity sha1-8VCotQo0KJsz4i9YiavU2AFvDlc=
+
+immutable@^3.7.3:
+  version "3.8.2"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/immutable/-/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
+  integrity sha1-wkOZUUVbs5kT2vKBN28VMOEErfM=
 
 inflation@^2.0.0:
   version "2.0.0"
@@ -1482,6 +1652,11 @@ is-number@^7.0.0:
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=
 
+is-stream@^1.0.1:
+  version "1.1.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
+  integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
+
 is-stream@^2.0.0:
   version "2.0.0"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/is-stream/-/is-stream-2.0.0.tgz#bde9c32680d6fae04129d6ac9d921ce7815f78e3"
@@ -1498,6 +1673,14 @@ isbinaryfile@^4.0.6:
   version "4.0.6"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/isbinaryfile/-/isbinaryfile-4.0.6.tgz#edcb62b224e2b4710830b67498c8e4e5a4d2610b"
   integrity sha1-7ctisiTitHEIMLZ0mMjk5aTSYQs=
+
+isomorphic-fetch@^2.1.1:
+  version "2.2.1"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
+  integrity sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk=
+  dependencies:
+    node-fetch "^1.0.1"
+    whatwg-fetch ">=0.10.0"
 
 istanbul-lib-coverage@^3.0.0:
   version "3.0.0"
@@ -1521,10 +1704,20 @@ istanbul-reports@^3.0.2:
     html-escaper "^2.0.0"
     istanbul-lib-report "^3.0.0"
 
+js-cookie@^2.2.0:
+  version "2.2.1"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/js-cookie/-/js-cookie-2.2.1.tgz#69e106dc5d5806894562902aa5baec3744e9b2b8"
+  integrity sha1-aeEG3F1YBolFYpAqpbrsN0Tpsrg=
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha1-GSA/tZmR35jjoocFDUZHzerzJJk=
+
+jsbn@^1.1.0:
+  version "1.1.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/jsbn/-/jsbn-1.1.0.tgz#b01307cb29b618a1ed26ec79e911f803c4da0040"
+  integrity sha1-sBMHyym2GKHtJux56RH4A8TaAEA=
 
 jsesc@^2.5.1:
   version "2.5.2"
@@ -1537,6 +1730,13 @@ json5@^2.1.2:
   integrity sha1-ybD3+pIzv+WAf+ZvzzpWF+1ZfUM=
   dependencies:
     minimist "^1.2.5"
+
+jsonp@^0.2.1:
+  version "0.2.1"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/jsonp/-/jsonp-0.2.1.tgz#a65b4fa0f10bda719a05441ea7b94c55f3e15bae"
+  integrity sha1-pltPoPEL2nGaBUQep7lMVfPhW64=
+  dependencies:
+    debug "^2.1.3"
 
 keygrip@~1.1.0:
   version "1.1.0"
@@ -1658,7 +1858,7 @@ log-update@^4.0.0:
     slice-ansi "^4.0.0"
     wrap-ansi "^6.2.0"
 
-loose-envify@^1.1.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
@@ -1699,6 +1899,11 @@ merge2@^1.3.0:
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
   integrity sha1-Q2iJL4hekHRVpv19xVwMnUBJkK4=
 
+methods@^1.1.2:
+  version "1.1.2"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
+  integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
+
 micromatch@^4.0.2:
   version "4.0.2"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/micromatch/-/micromatch-4.0.2.tgz#4fcb0999bf9fbc2fcbdd212f6d629b9a56c39259"
@@ -1712,12 +1917,17 @@ mime-db@1.45.0:
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/mime-db/-/mime-db-1.45.0.tgz#cceeda21ccd7c3a745eba2decd55d4b73e7879ea"
   integrity sha1-zO7aIczXw6dF66LezVXUtz54eeo=
 
-mime-types@^2.1.18, mime-types@^2.1.27, mime-types@~2.1.24:
+mime-types@^2.1.12, mime-types@^2.1.18, mime-types@^2.1.27, mime-types@~2.1.24:
   version "2.1.28"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/mime-types/-/mime-types-2.1.28.tgz#1160c4757eab2c5363888e005273ecf79d2a0ecd"
   integrity sha1-EWDEdX6rLFNjiI4AUnPs950qDs0=
   dependencies:
     mime-db "1.45.0"
+
+mime@^2.4.6:
+  version "2.5.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/mime/-/mime-2.5.0.tgz#2b4af934401779806ee98026bb42e8c1ae1876b1"
+  integrity sha1-K0r5NEAXeYBu6YAmu0Lowa4YdrE=
 
 mimic-fn@^2.1.0:
   version "2.1.0"
@@ -1768,6 +1978,14 @@ negotiator@0.6.2:
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha1-/qz3zPUlp3rpY0Q2pkiD/+yjRvs=
 
+node-fetch@^1.0.1:
+  version "1.7.3"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
+  integrity sha1-mA9vcthSEaU0fGsrwYxbhMPrR+8=
+  dependencies:
+    encoding "^0.1.11"
+    is-stream "^1.0.1"
+
 node-fetch@^2.6.1:
   version "2.6.1"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
@@ -1778,7 +1996,7 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
 
-object-assign@^4.1.1:
+object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
@@ -1845,6 +2063,11 @@ parseurl@^1.3.2:
   version "1.3.3"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/parseurl/-/parseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
   integrity sha1-naGee+6NEt/wUT7Vt2lXeTvC6NQ=
+
+password-sheriff@^1.1.0:
+  version "1.1.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/password-sheriff/-/password-sheriff-1.1.0.tgz#fdb3c3d845a0a3c92de422b2ad9346ce08a71413"
+  integrity sha1-/bPD2EWgo8kt5CKyrZNGzginFBM=
 
 path-exists@^4.0.0:
   version "4.0.0"
@@ -1917,6 +2140,22 @@ progress@^2.0.1:
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha1-foz42PW48jnBvGi+tOt4Vn1XLvg=
 
+promise@^7.1.1:
+  version "7.3.1"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/promise/-/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
+  integrity sha1-BktyYCsY+Q8pGSuLG8QY/9Hr078=
+  dependencies:
+    asap "~2.0.3"
+
+prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.2:
+  version "15.7.2"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.8.1"
+
 proxy-from-env@^1.0.0:
   version "1.1.0"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/proxy-from-env/-/proxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
@@ -1953,7 +2192,7 @@ puppeteer-core@^5.5.0:
     unbzip2-stream "^1.3.3"
     ws "^7.2.3"
 
-qs@^6.5.2:
+qs@^6.5.2, qs@^6.7.0, qs@^6.9.4:
   version "6.9.6"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/qs/-/qs-6.9.6.tgz#26ed3c8243a431b2924aca84cc90471f35d5a0ee"
   integrity sha1-Ju08gkOkMbKSSsqEzJBHHzXVoO4=
@@ -1968,6 +2207,16 @@ raw-body@^2.3.3:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-dom@^15.6.2:
+  version "15.7.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/react-dom/-/react-dom-15.7.0.tgz#39106dee996d0742fb0f43d567ef8b8153483ab2"
+  integrity sha1-ORBt7pltB0L7D0PVZ++LgVNIOrI=
+  dependencies:
+    fbjs "^0.8.9"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.0"
+    prop-types "^15.5.10"
+
 react-dom@^17.0.0:
   version "17.0.1"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/react-dom/-/react-dom-17.0.1.tgz#1de2560474ec9f0e334285662ede52dbc5426fc6"
@@ -1977,15 +2226,46 @@ react-dom@^17.0.0:
     object-assign "^4.1.1"
     scheduler "^0.20.1"
 
+react-is@^16.8.1:
+  version "16.13.1"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
+
 react-is@^17.0.1:
   version "17.0.1"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha1-WzUxvXamRaTJ+25pPtNkGeMwEzk=
 
+react-lifecycles-compat@^3.0.4:
+  version "3.0.4"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
+  integrity sha1-TxonOv38jzSIqMUWv9p4+HI1I2I=
+
 react-refresh@^0.9.0:
   version "0.9.0"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/react-refresh/-/react-refresh-0.9.0.tgz#71863337adc3e5c2f8a6bfddd12ae3bfe32aafbf"
   integrity sha1-cYYzN63D5cL4pr/d0Srjv+Mqr78=
+
+react-transition-group@^2.2.1:
+  version "2.9.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/react-transition-group/-/react-transition-group-2.9.0.tgz#df9cdb025796211151a436c69a8f3b97b5b07c8d"
+  integrity sha1-35zbAleWIRFRpDbGmo87l7WwfI0=
+  dependencies:
+    dom-helpers "^3.4.0"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
+    react-lifecycles-compat "^3.0.4"
+
+react@^15.6.2:
+  version "15.7.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/react/-/react-15.7.0.tgz#10308fd42ac6912a250bf00380751abc41ac7106"
+  integrity sha1-EDCP1CrGkSolC/ADgHUavEGscQY=
+  dependencies:
+    create-react-class "^15.6.0"
+    fbjs "^0.8.9"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.0"
+    prop-types "^15.5.10"
 
 react@^17.0.0:
   version "17.0.1"
@@ -1995,7 +2275,7 @@ react@^17.0.0:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
-readable-stream@^3.1.1, readable-stream@^3.4.0:
+readable-stream@^3.1.1, readable-stream@^3.4.0, readable-stream@^3.6.0:
   version "3.6.0"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/readable-stream/-/readable-stream-3.6.0.tgz#337bbda3adc0706bd3e024426a286d4b4b2c9198"
   integrity sha1-M3u9o63AcGvT4CRCaihtS0sskZg=
@@ -2079,7 +2359,7 @@ safe-buffer@~5.2.0:
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
   integrity sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY=
 
-"safer-buffer@>= 2.1.2 < 3":
+"safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0":
   version "2.1.2"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
@@ -2102,12 +2382,17 @@ semver@^6.0.0:
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha1-7gpkyK9ejO6mdoexM3YeG+y9HT0=
 
-semver@^7.3.4:
+semver@^7.3.2, semver@^7.3.4:
   version "7.3.4"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/semver/-/semver-7.3.4.tgz#27aaa7d2e4ca76452f98d3add093a72c943edc97"
   integrity sha1-J6qn0uTKdkUvmNOt0JOnLJQ+3Jc=
   dependencies:
     lru-cache "^6.0.0"
+
+setimmediate@^1.0.5:
+  version "1.0.5"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/setimmediate/-/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
+  integrity sha1-KQy7Iy4waULX1+qbg3Mqt4VvgoU=
 
 setprototypeof@1.1.0:
   version "1.1.0"
@@ -2192,6 +2477,23 @@ strip-ansi@^6.0.0:
   dependencies:
     ansi-regex "^5.0.0"
 
+superagent@^5.3.1:
+  version "5.3.1"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/superagent/-/superagent-5.3.1.tgz#d62f3234d76b8138c1320e90fa83dc1850ccabf1"
+  integrity sha1-1i8yNNdrgTjBMg6Q+oPcGFDMq/E=
+  dependencies:
+    component-emitter "^1.3.0"
+    cookiejar "^2.1.2"
+    debug "^4.1.1"
+    fast-safe-stringify "^2.0.7"
+    form-data "^3.0.0"
+    formidable "^1.2.2"
+    methods "^1.1.2"
+    mime "^2.4.6"
+    qs "^6.9.4"
+    readable-stream "^3.6.0"
+    semver "^7.3.2"
+
 supports-color@^5.3.0:
   version "5.5.0"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
@@ -2266,6 +2568,11 @@ tr46@^2.0.2:
   dependencies:
     punycode "^2.1.1"
 
+trim@0.0.1:
+  version "0.0.1"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/trim/-/trim-0.0.1.tgz#5858547f6b290757ee95cccc666fb50084c460dd"
+  integrity sha1-WFhUf2spB1fulczMZm+1AITEYN0=
+
 tsscmp@1.0.6:
   version "1.0.6"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/tsscmp/-/tsscmp-1.0.6.tgz#85b99583ac3589ec4bfef825b5000aa911d605eb"
@@ -2299,6 +2606,11 @@ typical@^5.0.0, typical@^5.2.0:
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/typical/-/typical-5.2.0.tgz#4daaac4f2b5315460804f0acf6cb69c52bb93066"
   integrity sha1-TaqsTytTFUYIBPCs9stpxSu5MGY=
 
+ua-parser-js@^0.7.18:
+  version "0.7.23"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/ua-parser-js/-/ua-parser-js-0.7.23.tgz#704d67f951e13195fbcd3d78818577f5bc1d547b"
+  integrity sha1-cE1n+VHhMZX7zT14gYV39bwdVHs=
+
 unbzip2-stream@^1.3.3:
   version "1.4.3"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/unbzip2-stream/-/unbzip2-stream-1.4.3.tgz#b0da04c4371311df771cdc215e87f2130991ace7"
@@ -2307,10 +2619,25 @@ unbzip2-stream@^1.3.3:
     buffer "^5.2.1"
     through "^2.3.8"
 
+unfetch@^4.1.0:
+  version "4.2.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/unfetch/-/unfetch-4.2.0.tgz#7e21b0ef7d363d8d9af0fb929a5555f6ef97a3be"
+  integrity sha1-fiGw7302PY2a8PuSmlVV9u+Xo74=
+
 unpipe@1.0.0:
   version "1.0.0"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
   integrity sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
+
+url-join@^1.1.0:
+  version "1.1.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/url-join/-/url-join-1.1.0.tgz#741c6c2f4596c4830d6718460920d0c92202dc78"
+  integrity sha1-dBxsL0WWxIMNZxhGCSDQySIC3Hg=
+
+url-join@^4.0.1:
+  version "4.0.1"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/url-join/-/url-join-4.0.1.tgz#b642e21a2646808ffa178c4c5fda39844e12cde7"
+  integrity sha1-tkLiGiZGgI/6F4xMX9o5hE4Szec=
 
 util-deprecate@^1.0.1:
   version "1.0.2"
@@ -2331,6 +2658,11 @@ v8-to-istanbul@^7.1.0:
     convert-source-map "^1.6.0"
     source-map "^0.7.3"
 
+validator@^13.1.1:
+  version "13.5.2"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/validator/-/validator-13.5.2.tgz#c97ae63ed4224999fb6f42c91eaca9567fe69a46"
+  integrity sha1-yXrmPtQiSZn7b0LJHqypVn/mmkY=
+
 vary@^1.1.2:
   version "1.1.2"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -2341,6 +2673,11 @@ webidl-conversions@^6.1.0:
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/webidl-conversions/-/webidl-conversions-6.1.0.tgz#9111b4d7ea80acd40f5270d666621afa78b69514"
   integrity sha1-kRG01+qArNQPUnDWZmIa+ni2lRQ=
 
+whatwg-fetch@>=0.10.0:
+  version "3.5.0"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/whatwg-fetch/-/whatwg-fetch-3.5.0.tgz#605a2cd0a7146e5db141e29d1c62ab84c0c4c868"
+  integrity sha1-YFos0KcUbl2xQeKdHGKrhMDEyGg=
+
 whatwg-url@^8.4.0:
   version "8.4.0"
   resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/whatwg-url/-/whatwg-url-8.4.0.tgz#50fb9615b05469591d2b2bd6dfaed2942ed72837"
@@ -2349,6 +2686,11 @@ whatwg-url@^8.4.0:
     lodash.sortby "^4.7.0"
     tr46 "^2.0.2"
     webidl-conversions "^6.1.0"
+
+winchan@^0.2.2:
+  version "0.2.2"
+  resolved "https://indigoag.jfrog.io/indigoag/api/npm/npm/winchan/-/winchan-0.2.2.tgz#6766917b88e5e1cb75f455ffc7cc13f51e5c834e"
+  integrity sha1-Z2aRe4jl4ct19FX/x8wT9R5cg04=
 
 wordwrapjs@^4.0.0:
   version "4.0.0"

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Auth0Login from './Auth0Login';
 
 function App() {
   // Create the count state.
@@ -31,6 +32,7 @@ function App() {
             Learn React
           </a>
         </p>
+        <Auth0Login />
       </header>
     </div>
   );
